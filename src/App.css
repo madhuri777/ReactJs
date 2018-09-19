@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.colorLogin{
+  background-color: aqua;
+}
+.loginCard{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.outlineclass{
+  margin: 10px;
+  outline: none;
+  border: none;
+}
+.common-align-Center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.imges{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.socialImg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.title{
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  /* background-color: #fb0; */
+  border-radius: 3px;
+}
+.log-regi-card{
+  width: 275px;
+  /* height: 420px; */
+  margin-top: 30px;
+}
+.rmLinkUndrln{
+  text-decoration: none;
+}
+.form{
+  text-align: center;
+}
+.searchDiv{
+    height: 46px;
+    padding: 0;
+    margin-left: 54px;
+    margin-right: 50px;
+    overflow: hidden;
+    width: 800px;
+}
+.searchBar{
+ 
+  background: rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    position: relative;
+    -webkit-transition: background 100ms ease-in,width 100ms ease-out;
+    transition: background 100ms ease-in,width 100ms ease-out;
+}
+.search{
+  height: 48px;
+    max-width: 720px;
+    position: absolute;
+    left: 220px;
+}
+.noteWord{
+  display: inline-block; 
+    font-family: 'Product Sans',Arial,sans-serif; 
+    font-size: 22px;
+    line-height: 24px;
+    padding-left: 8px;
+    position: relative;
+    /* top: -1.5px; */
+   vertical-align: middle;
+}
+.fundooWrd{
+  height: 24px;
+    width: 74px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.accountcircle{
+  position:absolute;
+  right: 0;
+  margin-top: -24px;
+}
+.fundoonotesText{
+  margin: 10px;
+    position: absolute;
+    left: 40px;
+    margin-top: 0px;
+}
+.gridListView{
+  position: absolute;
+  right: 100px;
+  margin-top: -24px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
